@@ -1,4 +1,4 @@
-let navInit = () => {
+function dkNavInit() {
   var top = document.getElementById('top')
   var left = document.getElementById('left')
   var bottom = document.getElementById('bottom')
@@ -59,6 +59,64 @@ let navInit = () => {
     rightGo.className = 'go'
   }
 }
-navInit()
 
-// document.querySelector('h1').innerText = window.innerHeight
+function mobTabNavInit() {
+  var controller = document.getElementById('mt-controller')
+  var top = document.getElementById('top')
+  var left = document.getElementById('left')
+  var bottom = document.getElementById('bottom')
+  var right = document.getElementById('right')
+
+  var topGo = document.getElementById('mt-top')
+  var leftGo = document.getElementById('mt-left')
+  var bottomGo = document.getElementById('mt-bottom')
+  var rightGo = document.getElementById('mt-right')
+  
+  var open = () => {
+    controller.className = 'go'
+    controller.innerText = 'Close'
+  }
+  var close = () => {
+    controller.className = ''
+    controller.innerText = 'Menu'
+  }
+
+  controller.onclick = e => {
+    if (controller.className === '') open()
+    else close()
+  }
+
+  topGo.onclick = e => {
+    top.className = 'top go'
+    left.className = 'left'
+    bottom.className = 'bottom'
+    right.className = 'right'
+    close()
+  }
+  leftGo.onclick = e => {
+    top.className = 'top'
+    left.className = 'left go'
+    bottom.className = 'bottom'
+    right.className = 'right'
+    close()
+  }
+  bottomGo.onclick = e => {
+    top.className = 'top'
+    left.className = 'left'
+    bottom.className = 'bottom go'
+    right.className = 'right'
+    close()
+  }
+  rightGo.onclick = e => {
+    top.className = 'top'
+    left.className = 'left'
+    bottom.className = 'bottom'
+    right.className = 'right go'
+    close()
+  }
+  
+  
+}
+
+dkNavInit()
+mobTabNavInit()

@@ -232,7 +232,6 @@ body {
 }
 
 .bottom .container .row.LogoSection{
-	
 	margin-top:5%!important;
 }
 
@@ -503,7 +502,6 @@ body {
 	position: fixed;
 	font-family: Baskerville, sans-serif;
 	font-size: 20px;
-	text-transform: uppercase;
 	color: #E8C547
 }
 #top-go:hover, #left-go:hover, #right-go:hover, #bottom-go:hover {
@@ -622,4 +620,182 @@ body {
   overflow-y: scroll
 }
 
+/* Not Desktop Styles */
+#mt-menu {
+	display: none
+}
+@media screen and (max-width: 991px) {
+	.top, .left, .bottom, .right {
+		/* transition-duration: 0s !important;
+		transition-delay: 0s !important; */
+		left: 0 !important;
+		top: 0 !important;
+		display: none
+	}
+	.top.go, .left.go, .bottom.go, .right.go {
+		display: block
+	}
+	#top-go, #left-go, #right-go, #bottom-go {
+		display: none
+	}
+	#mt-menu {
+		display: block;
+		z-index: 2;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 90px
+	}
+	.content {
+		margin-top: 90px;
+		margin-left: 0;
+		margin-bottom: 0;
+		margin-right: 0;
+		width: 100%;
+		height: calc(100% - 90px)
+	}
+}
+.mt-logo {
+	position: absolute;
+	left: 32px;
+	top: 50%;
+	transform: translateY(-50%);
+	background-repeat: no-repeat;
+	background-position: left center
+}
+#mt-controller.go ~ .mt-logo {
+	display: none
+}
+#mt-controller {
+	font-family: europa, sans-serif;
+	font-weight: 300;
+	/* color: #E8C547; */
+	position: absolute;
+	z-index: 4;
+	right: 0;
+	line-height: 90px;
+	width: 90px;
+	padding-right: 10px;
+	text-align: center;
+	cursor: pointer
+}
+#mt-controller.go {
+	color: #E8C547 !important
+}
+.top.go ~ #mt-menu #mt-controller {
+	color: #E8C547
+}
+.left.go ~ #mt-menu #mt-controller {
+	color: #FFFFFF
+}
+.right.go ~ #mt-menu #mt-controller {
+	color: #30323D
+}
+.bottom.go ~ #mt-menu #mt-controller {
+	color: #E8C547
+}
 
+#mt-menu-panel {
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 3
+}
+#mt-controller.go ~ #mt-menu-panel {
+	display: block
+}
+#mt-menu-panel > div {
+	position: relative;
+	width: 100%;
+	height: 25%;
+	font-family: Baskerville, serif
+}
+#mt-menu-panel > div > span {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center
+}
+#mt-top {
+	background-color: #30323D
+}
+#mt-top img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 30%
+}
+#mt-left {
+	background-color: #3B9BAC;
+	color: #FFFFFF
+}
+#mt-right {
+	background-color: #E8C547;
+	color: #30323D
+}
+#mt-bottom {
+	background-color: #FFFFFF;
+	color: #E8C547
+}
+
+/* Tablet Styles */
+.tablet-show {
+	display: none
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+	.tablet-show {
+		display: block
+	}
+	.mt-logo {
+		height: 48px;
+		width: 224px
+	}
+	.top.go ~ #mt-menu .mt-logo, .bottom.go ~ #mt-menu .mt-logo {
+		background-image: url('images/Tablet/logos_icons/logo-files/tablet_logo-gold_horizontal.svg')
+	}
+	.left.go ~ #mt-menu .mt-logo {
+		background-image: url('images/Tablet/logos_icons/logo-files/tablet_logo-white_horizontal.svg')
+	}
+	.right.go ~ #mt-menu .mt-logo {
+		background-image: url('images/Tablet/logos_icons/logo-files/tablet_logo-grey_horizontal.svg')
+	}
+	#mt-controller {
+		font-size: 20px
+	}
+	#mt-menu-panel > div > span {
+		font-size: 36px
+	}
+}
+
+/* Mobile Styles */
+.mobile-show {
+	display: none
+}
+@media screen and (max-width: 575px) {
+	.mobile-show {
+		display: block
+	}
+	.mt-logo {
+		height: 46px;
+		width: 46px
+	}
+	.top.go ~ #mt-menu .mt-logo, .bottom.go ~ #mt-menu .mt-logo {
+		background-image: url('images/Mobile/logos_icons/logo-files/mobile_icon-gold.svg')
+	}
+	.left.go ~ #mt-menu .mt-logo {
+		background-image: url('images/Mobile/logos_icons/logo-files/mobile_icon-white.svg')
+	}
+	.right.go ~ #mt-menu .mt-logo {
+		background-image: url('images/Mobile/logos_icons/logo-files/mobile_icon-grey.svg')
+	}
+	#mt-controller {
+		font-size: 14px
+	}
+	#mt-menu-panel > div > span {
+		font-size: 24px
+	}
+}
