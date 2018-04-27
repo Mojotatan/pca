@@ -3,10 +3,13 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 218 47" style="enable-background:new 0 0 218 47;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
+	.st0{fill:#E8C547;}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{fill:#FFFFFF;}
+	.st3{mask:url(#mask-2_1_);fill:#E8C547;}
 </style>
 <g id="Page-1_1_">
-	<g id="Tablet-Legacy" transform="translate(-36.000000, -93.000000)">
+	<g id="Tablet-Home-Full" transform="translate(-36.000000, -93.000000)">
 		<g id="Page-1" transform="translate(36.000000, 92.000000)">
 			<path id="Fill-1" class="st0" d="M55.9,36h4.7l-1.5-4.3c-0.3-0.8-0.5-1.5-0.8-1.9L55.9,36z M54,27.7c0.8-0.3,1.6-0.5,2.3-0.5
 				c0.6,0,1.2,0.2,1.9,0.7c0.4,0.2,0.8,0.7,1.2,1.4c0.3,0.5,0.7,1.4,1.1,2.7l2.2,6.4c0.5,1.4,1,2.6,1.6,3.4c0.5,0.8,1,1.5,1.5,1.9
@@ -116,7 +119,19 @@
 			<path id="Fill-57" class="st0" d="M11.7,15.8L11,14.2c-1.7,2-2.8,4.4-3.3,7l1.7-0.4C9.8,19,10.6,17.3,11.7,15.8"/>
 			<path id="Fill-59" class="st0" d="M19.9,10.5l0.4-1.7c-2.7,0.5-5,1.6-7,3.2l1.6,0.7C16.3,11.7,18,10.9,19.9,10.5"/>
 			<g id="Group-63" transform="translate(0.000000, 0.358100)">
-				<path id="Fill-61" class="st0" d="M26,34.3l1.2-5.9l6.3-1.5C32.5,30.4,29.6,33.3,26,34.3z M23.1,28.6c-2.7,0-4.9-2.2-4.9-4.9
+				<g id="Clip-62">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0.6" width="46.4" height="46.4">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="0" y="0.6" width="46.4" height="46.4" id="mask-2_1_">
+					<g class="st1">
+						<polygon id="path-1_1_" class="st2" points="0,0.6 46.4,0.6 46.4,47 0,47 						"/>
+					</g>
+				</mask>
+				<path id="Fill-61" class="st3" d="M26,34.3l1.2-5.9l6.3-1.5C32.5,30.4,29.6,33.3,26,34.3z M23.1,28.6c-2.7,0-4.9-2.2-4.9-4.9
 					c0-2.7,2.2-4.9,4.9-4.9c2.7,0,4.9,2.2,4.9,4.9C28,26.4,25.8,28.6,23.1,28.6z M23.4,41.5L23,39.8v-9.9l0,0c0.1,0,0.1,0,0.2,0
 					c0.9,0,1.8-0.2,2.5-0.6L23.4,41.5z M19.6,34.1c-0.5-0.2-1.1-0.4-1.6-0.7c-1.4-0.7-2.5-1.7-3.5-2.9h0c-0.4-0.5-0.7-1-1-1.5h0
 					c0-0.1-0.1-0.1-0.1-0.2c-0.2-0.5-0.5-1-0.7-1.5c-0.1-0.2-0.1-0.4-0.2-0.7l6,1.2l0,0l1.5,6.3C20,34.2,19.8,34.1,19.6,34.1
