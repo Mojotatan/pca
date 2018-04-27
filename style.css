@@ -32,7 +32,7 @@ body {
   background-color: #30323D;
 }
 
-.top .container .row.TopHalf{
+.top .panel {
 	background-image:url("images/Desktop/images/backgroundtext/grey_backgroundtext_2x.png");
 	background-repeat: no-repeat;
 	background-size: 80%;
@@ -128,7 +128,7 @@ body {
 
 
 
-.left .container .row.TopHalf{
+.left .panel {
 	background-image:url("images/Desktop/images/backgroundtext/blue_backgroundtext_2x.png");
 	background-repeat: no-repeat;
 	background-size: 80%;
@@ -224,7 +224,7 @@ body {
 }
 
 
-.bottom .container .row.TopHalf{
+.bottom .panel {
 	background-image:url("images/Desktop/images/backgroundtext/white_backgroundtext_2x.png");
 	background-repeat: no-repeat;
 	background-size: 80%;
@@ -319,7 +319,7 @@ body {
   color: #E8C547;
   font-family: Baskerville;
   font-size: 46px;
-  line-height: 0px
+  line-height: 0px;
   text-align:left;
 }
 
@@ -371,7 +371,7 @@ body {
 
 
 
-.right .container .row.TopHalf{
+.right .panel {
 	background-image:url("images/Desktop/images/backgroundtext/gold_backgroundtext_2x.png");
 	background-repeat: no-repeat;
 	background-size: 90%;
