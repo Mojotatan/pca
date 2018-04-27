@@ -97,6 +97,14 @@ body {
 	color:#E8C547!important;
 }
 
+.top .btn.btn-outline-primary:hover {
+	box-sizing: border-box!important;
+	border: 1px solid #E8C547!important;
+	border-radius: 4px!important;
+	color:#30323d!important;
+	background:#E8C547!important;
+}
+
 .top .QuoteText p{
 	opacity: 0.9;
 	color: #F2F2F2;
@@ -289,6 +297,15 @@ body {
 	font-family: Baskerville;
 }
 
+.bottom .btn.btn-outline-primary {
+	box-sizing: border-box!important;
+	border: 1px solid #E8C547!important;
+	border-radius: 4px!important;
+	color:#30323D!important;
+	background:transparent!important;
+	font-family: Baskerville;
+}
+
 .bottom .QuoteText p, .bottom .MidHalf p{
 	opacity: 0.9;
 	color: #30323D;
@@ -317,8 +334,8 @@ body {
 .bottom span.ColHead{
   color: #E8C547;
   font-family: Baskerville;
-  font-size: 46px;
-  line-height: 0px;
+  font-size: 45px;
+  line-height: 60px;
   text-align:left;
 }
 
@@ -354,7 +371,21 @@ body {
 	height: 30px;	
 	width: 30px;
 	margin-top:20px;
+	background: url("images/Desktop/logos_icons/contact%20info/desktop_linked-in_grey.svg") no-repeat;
+    display: inline-block;
 }
+
+.c-linkedin:hover {	
+	background: url("images/Desktop/logos_icons/contact%20info/desktop_linked-in_gold.svg") no-repeat;
+}
+
+img.ContactIcon{
+	height:25px!important;
+	width:25px!important;
+	margin-right:15px!important;
+}
+
+
 
 
 .bottom.go {
@@ -443,6 +474,16 @@ body {
 	color:#30323D!important;
 	margin-top:20px!important;
 }
+
+.right .btn.btn-outline-primary.btn-block:hover {
+	box-sizing: border-box!important;
+	border: 1px solid #000!important;
+	border-radius: 4px!important;
+	color:#E8C547!important;
+	background:#30323d!important;
+	margin-top:20px!important;
+}
+
 .right p.in-financial-markets{
 	opacity: 0.9;
 	color: #4D5061;
