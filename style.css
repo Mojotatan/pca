@@ -1,0 +1,603 @@
+/* Misc universal */
+body {
+  margin: 0;
+  font-family: sans-serif
+}
+.containment {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden
+}
+
+/* Animated Pages */
+.top, .left, .bottom, .right {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  transition-duration: .2s;
+  transition-delay: .2s;
+  /* overflow-y: scroll */
+}
+.top.go, .left.go, .bottom.go, .right.go {
+  z-index: 1;
+  /* transition-duration: .2s; */
+  transition-delay: 0s
+}
+.top {
+  top: calc(-100%);
+  left: 0;
+  transition-property: top;
+  background-color: #30323D;
+}
+
+.top .container .row.TopHalf{
+	background-image:url("images/Desktop/images/backgroundtext/grey_backgroundtext_2x.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center center;
+	padding:50px 0!important;
+}
+
+.top .container .row.LogoSection{
+	
+	margin-top:5%!important;
+}
+
+.top .container .row.MidHalf{
+	margin:12% 0!important;
+}
+
+.top h1{
+  color: #E8C547;
+  font-family: Baskerville;
+  font-size: 144px;
+  line-height: 120px;
+  text-align: center;
+}
+
+.top h2{
+  color: #E8C547;
+  font-family: Baskerville;
+  font-size: 100px;
+  line-height: 120px;
+}
+
+.top .QuoteText h3{
+	color: #E8C547;
+	font-family: Baskerville;
+	font-size: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.top p.in-financial-markets{
+	opacity: 0.9;
+	color: #F2F2F2;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: center;
+}
+
+.top p.when-brian-foley-cre {
+	opacity: 0.9;
+	color: #F2F2F2;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.top .btn.btn-outline-primary {
+	box-sizing: border-box!important;
+	border: 1px solid #E8C547!important;
+	border-radius: 4px!important;
+	color:#E8C547!important;
+}
+
+.top .QuoteText p{
+	opacity: 0.9;
+	color: #F2F2F2;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: center;
+}
+
+.top .QuoteText h3{
+	background-image:url('images/Desktop/logos_icons/quotation-marks/desktop-quotemarks-grey.png');
+	background-repeat: no-repeat;
+    background-size: 880px 400px;
+	padding:50px 0px;
+	}
+	
+	
+.top.go {
+  top: 0;
+}
+.left {
+  top: 0;
+  left: calc(-100vw);
+  transition-property: left;
+  background-color: #3B9BAC;
+}
+
+
+
+.left .container .row.TopHalf{
+	background-image:url("images/Desktop/images/backgroundtext/blue_backgroundtext_2x.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center center;
+	padding:100px 0!important;
+}
+
+.left .container .row.LogoSection{
+	
+	margin-top:5%!important;
+}
+
+.left .container .row.MidHalf{
+	margin:12% 0!important;
+}
+
+.left h1{
+  color: #F2F2F2;
+  font-family: Baskerville;
+  font-size: 144px;
+  line-height: 120px;
+  text-align: center;
+}
+
+.left h2{
+  color: #F2F2F2;
+  font-family: Baskerville;
+  font-size: 100px;
+  line-height: 120px;
+}
+
+.left .QuoteText h3, .left .MidHalf h3{
+	color: #F2F2F2;
+	font-family: Baskerville;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.left p.in-financial-markets{
+	opacity: 0.9;
+	color: #F2F2F2;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: center;
+}
+
+.left p.when-brian-foley-cre {
+	opacity: 0.9;
+	color: #F2F2F2;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.left .btn.btn-outline-primary {
+	box-sizing: border-box!important;
+	border: 1px solid #E8C547!important;
+	border-radius: 4px!important;
+	color:#E8C547!important;
+}
+
+.left .QuoteText p, .left .MidHalf p{
+	opacity: 0.9;
+	color: #F2F2F2;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin-top:20px;
+}
+
+.left .QuoteText h3{
+	background-image:url('images/Desktop/logos_icons/quotation-marks/desktop-quotemarks-blue.png');
+	background-repeat: no-repeat;
+    background-size: 850px 400px;
+	padding:80px 0;
+	}
+
+	
+	
+	
+.left.go {
+  left: 0;
+}
+.bottom {
+  top: calc(100%);
+  left: 0;
+  transition-property: top;
+  background-color: #ffffff
+}
+
+
+.bottom .container .row.TopHalf{
+	background-image:url("images/Desktop/images/backgroundtext/white_backgroundtext_2x.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center center;
+	padding:100px 0!important;
+}
+
+.bottom .container .row.LogoSection{
+	
+	margin-top:5%!important;
+}
+
+.bottom .container .row.MidHalf{
+	margin:18% 0!important;
+}
+
+.bottom h1{
+  color: #30323D;
+  font-family: Baskerville;
+  font-size: 144px;
+  line-height: 120px;
+  text-align: center;
+}
+
+.bottom h2{
+  color: #E8C547;
+  font-family: Baskerville;
+  font-size: 100px;
+  line-height: 120px;
+}
+
+.bottom .QuoteText h3, .bottom .MidHalf h3{
+	color: #E8C547;
+	font-family: Baskerville;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.bottom p.in-financial-markets{
+	opacity: 0.9;
+	color: #30323D;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: center;
+}
+
+.bottom p.when-brian-foley-cre {
+	opacity: 0.9;
+	color: #30323D;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.bottom .btn.btn-outline-primary {
+	box-sizing: border-box!important;
+	border: 1px solid #E8C547!important;
+	border-radius: 4px!important;
+	color:#30323D!important;
+	font-family: Baskerville;
+}
+
+.bottom .QuoteText p, .bottom .MidHalf p{
+	opacity: 0.9;
+	color: #30323D;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin-top:20px;
+}
+
+.bottom .PointsCol{
+	border-right:none!important;
+	padding-right:10px!important;
+}
+
+.bottom .PointsCol p.in-financial-markets{
+	opacity: 0.9;
+	color: #30323D;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: left;
+}
+
+.bottom span.ColHead{
+  color: #E8C547;
+  font-family: Baskerville;
+  font-size: 46px;
+  line-height: 0px
+  text-align:left;
+}
+
+.bottom .QuoteText h3{
+	background-image:url('images/Desktop/logos_icons/quotation-marks/desktop-quotemarks-blue.png');
+	background-repeat: no-repeat;
+    background-size: 850px 400px;
+	padding:80px 0;
+	}
+	
+.bottom input{
+		border: 1px solid #30323D;
+		border-radius: 2px;
+		background-color: #FFFFFF;
+		color: #666666;
+		font-family: Baskerville;
+		font-size: 18px;
+		line-height: 18px;
+}
+
+.EducationHighlights{
+	margin-top:20px!important;
+	opacity: 0.9;
+	color: #30323D;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: left;
+}
+
+.c-linkedin {	
+	height: 30px;	
+	width: 30px;
+	margin-top:20px;
+}
+
+
+.bottom.go {
+  top: 0;
+}
+.right {
+  top: 0;
+  left: calc(100vw);
+  transition-property: left;
+  background-color: #E8C547
+}
+
+
+
+
+.right .container .row.TopHalf{
+	background-image:url("images/Desktop/images/backgroundtext/gold_backgroundtext_2x.png");
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center center;
+	padding:50px 0!important;
+}
+
+.right .container .row.LogoSection{
+	
+	margin-top:5%!important;
+}
+
+.right .container .row.MidHalf{
+	margin:12% 0!important;
+}
+
+.right h1{
+  color: #30323D;
+  font-family: Baskerville;
+  font-size: 144px;
+  line-height: 120px;
+  margin-top:50px;
+  text-align: center;
+}
+
+.right h2{
+  color: #30323D;
+  font-family: Baskerville;
+  font-size: 100px;
+  line-height: 120px;
+}
+
+.right span.ColHead{
+  color: #30323D;
+  font-family: Baskerville;
+  font-size: 64px;
+  line-height: 120px;
+  text-align:center;
+}
+
+
+.right .QuoteText h3, .right .MidHalf h3{
+	color: #30323D;
+	font-family: Baskerville;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.right .BottomHalf h3{
+  color: #30323D;
+  font-family: Baskerville;
+  font-size: 64px;
+  line-height: 120px;
+}
+
+.right .PointsCol{
+	border-right:1px solid #000!important;
+	padding-right:10px!important;
+}
+
+.right .PointsCol:last-child{
+	border-right:none!important;
+	padding-right:10px!important;
+}
+
+.right .btn.btn-outline-primary.btn-block {
+	box-sizing: border-box!important;
+	border: 1px solid #000!important;
+	border-radius: 4px!important;
+	color:#30323D!important;
+	margin-top:20px!important;
+}
+.right p.in-financial-markets{
+	opacity: 0.9;
+	color: #4D5061;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: center;
+}
+
+.right p.when-brian-foley-cre {
+	opacity: 0.9;
+	color: #4D5061;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.right .btn.btn-outline-primary {
+	box-sizing: border-box!important;
+	border: 1px solid #E8C547!important;
+	border-radius: 4px!important;
+	color:#E8C547!important;
+}
+
+.right .QuoteText p, .right .MidHalf p{
+	opacity: 0.9;
+	color: #4D5061;
+	font-family: europa;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin-top:20px;
+}
+
+.right .QuoteText h3{
+	background-image:url('images/Desktop/logos_icons/quotation-marks/desktop-quotemarks-yellow.png');
+	background-repeat: no-repeat;
+    background-size: 900px 460px;
+	padding:50px 0;
+	}
+
+
+
+
+
+	
+.right.go {
+  left: 0;
+}
+
+/* Edge Menu */
+#top-go, #left-go, #right-go, #bottom-go {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 3;
+  position: fixed;
+  /* background-color: #FFFFFF */
+}
+#top-go {
+  height: 80px;
+  top: 0;
+  left: 80px;
+  width: calc(100% - 160px);
+  transition-property: border-bottom;
+  transition-duration: 0s;
+  transition-delay: .2s;
+  border-bottom: 0px solid #EA0029
+}
+#top-go > div {
+  line-height: 80px;
+  letter-spacing: 4px
+}
+#top-go:hover {
+  border-bottom: 1px solid #EA0029;
+  transition-delay: 0s
+}
+#left-go {
+  width: 80px;
+  left: 0;
+  top: 80px;
+  height: calc(100% - 160px);
+}
+#left-go > div {
+  line-height: 80px;
+  transform: rotate(90deg);
+  width: 200px;
+  padding-top: 116px;
+  position: absolute;
+  top: calc(50% - 100px);
+  letter-spacing: 4px
+}
+#left-go:hover {
+  border-right: 1px solid #EA0029
+}
+#bottom-go {
+  height: 80px;
+  bottom: 0;
+  width: calc(100% - 160px);
+  left: 80px;
+  transition-property: border-top;
+  transition-duration: 0s;
+  transition-delay: .2s;
+  border-top: 0px solid #EA0029
+}
+#bottom-go > div {
+  line-height: 80px;
+  letter-spacing: 4px
+}
+#bottom-go:hover {
+  border-top: 1px solid #EA0029;
+  transition-delay: 0s
+}
+#right-go {
+  width: 80px;
+  right: 0;
+  top: 80px;
+  height: calc(100% - 160px);
+}
+#right-go > div {
+  line-height: 80px;
+  transform: rotate(-90deg);
+  width: 200px;
+  padding-bottom: 116px;
+  position: absolute;
+  top: calc(50% - 100px);
+  letter-spacing: 4px
+}
+#right-go:hover {
+  border-left: 1px solid #EA0029;
+  transition-delay: 0s
+}
+
+/* Inner Page */
+.panel {
+  position: fixed;
+  width: calc(100% - 160px);
+  height: calc(100% - 160px);
+  margin: 80px;
+}
+.panel .fixed-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  position: relative;
+  width: calc(100% - 160px);
+  margin: 80px;
+  height: calc(100% - 160px);
+  overflow-y: scroll
+}
