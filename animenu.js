@@ -120,3 +120,5 @@ function mobTabNavInit() {
 
 dkNavInit()
 mobTabNavInit()
+
+window.onload(document.querySelector('h1').innerText = window.innerWidth)
