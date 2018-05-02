@@ -875,28 +875,24 @@ img.ContactIcon{
 	width:40%!important;
 	}
 	
-	.top .TopHalf, .left .TopHalf, .bottom .TopHalf, .right .TopHalf {
-	  position: relative;
-	  top: 10px;
-	  left: 50%;
-	  /* bring your own prefixes */
-	  transform: translate(-50%, 100%);
+	.top .TopHalf{
+	position: center;
+	padding:150px 0!important;
 	}
 	
-	.top .TopHalf{
-	  position: relative;
-	  top: -120px;
-	  left: 50%;
-	  /* bring your own prefixes */
-	  transform: translate(-50%, 100%);
+	.left .TopHalf{
+	position: center;
+	padding:260px 0!important;
 	}
 	
 	.bottom .TopHalf{
-	  position: relative;
-	  top: 120px;
-	  left: 50%;
-	  /* bring your own prefixes */
-	  transform: translate(-50%, 100%);
+	position: center;
+	padding:260px 0!important;
+	}
+	
+	.right .TopHalf{
+	position: center;
+	padding:260px 0!important;
 	}
 
 	.top .container .row.MidHalf, .left .container .row.MidHalf , .bottom .container .row.MidHalf , .right .container .row.MidHalf  {
@@ -938,7 +934,39 @@ img.ContactIcon{
 		font-size: 24px
 	}
 	.top h1, .left h1, .right h1, .bottom h1{
-		font-size:10px!important;
-		line-height:120px!important;
+		font-size:48px!important;
+		line-height:50px!important;
+	}
+	
+	.top h2, .left h2, .right h2, .bottom h2{
+		font-size:30px!important;
+		line-height:40px!important;
+	}
+	
+	.top h3, .left h3, .right h3{
+		font-size:30px!important;
+		line-height:40px!important;
+		padding-top:40px;
+	}
+	
+	.right span.ColHead, .bottom span.ColHead{
+		font-size: 30px;
+		line-height:60px!important;
+	}
+	
+		.right .MidHalf .row.text-center .PointsCol, .right .MidHalf .row.text-center .PointsCol p{
+		text-align:left!important;
+	}
+	
+	.right .PointsCol{
+		border-bottom:1px solid #000!important;
+		padding-bottom:10px!important;
+		border-right:none!important;
+	}
+
+	.right .PointsCol:last-child{
+		border-bottom:none!important;
+		padding-bottom:10px!important;
+		border-right:none;
 	}
 }
