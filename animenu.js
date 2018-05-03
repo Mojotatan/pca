@@ -113,10 +113,73 @@ function mobTabNavInit() {
     bottom.className = 'bottom'
     right.className = 'right go'
     close()
+  } 
+}
+
+function ballSetUp() {
+  let top = document.getElementById('animation-top')
+  const balls = 1200
+  // let delayArray = []
+  // for (let i = 0; i < balls; i++) {
+  //   delayArray.push(Math.floor(Math.random() * 1000) * 2.5)
+  // }
+  // delayArray.sort()
+  for (let i = 0; i < balls; i++) {
+    let newBall = document.createElement('div')
+    newBall.className = (i % 10 === 0) ? 'ball red' : 'ball blue'
+    let delay = Math.floor(Math.random() * 2000)
+    newBall.style.animationDelay = `${delay}ms, 4s, 5s`
+    let diameter = Math.floor(Math.random() * 4) * 5 + 10
+    newBall.style.width = `${diameter}px`
+    newBall.style.height = `${diameter}px`
+    newBall.style.left = `${Math.floor(Math.random() * (top.offsetWidth - diameter))}px`
+    top.appendChild(newBall)
   }
-  
-  
+  const getYOffset = (element, target) => {
+    let y = element.offsetTop
+    if (element.offsetParent && element.offsetParent.id !== target) y += getYOffset(element.offsetParent)
+    return y
+  }
+  var scrollTarget = getYOffset(document.getElementById('animation-top'), 'right-content') - 400
+  console.log(scrollTarget)
+  var didScroll = false
+  var rightScroll = new SimpleBar(document.getElementById('right-content'))
+  rightScroll.getScrollElement().addEventListener('scroll', function() {
+    didScroll = true
+  })
+  var checkYOffset = setInterval(function() {
+    if (didScroll) {
+      didScroll = false
+      var scrollY = rightScroll.getScrollElement().scrollTop
+      // console.log(scrollY, 'vs', scrollTarget)
+      if (scrollY >= scrollTarget) {
+        console.log('trigger me timbers')
+        let slider = document.getElementById('slide-text')
+        slider.className += ' go'
+        setTimeout(function() {
+          let balls = document.getElementsByClassName('ball')
+          Array.from(balls).forEach(ball => {
+            ball.className += ' drop'
+          })
+          setTimeout(function() {
+            let balls = document.getElementsByClassName('red')
+            Array.from(balls).forEach(ball => {
+              ball.className += ' slide'
+            })
+            setTimeout(function() {
+              let ghosts = document.getElementsByClassName('ghost-text')
+              Array.from(ghosts).forEach(ghost => {
+                ghost.className += ' summon'
+              })
+            }, 4000)
+          }, 2000)
+        }, 2500)
+        clearInterval(checkYOffset)
+      }
+    }
+  }, 100)
 }
 
 dkNavInit()
 mobTabNavInit()
+ballSetUp()
