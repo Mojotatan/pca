@@ -876,22 +876,18 @@ img.ContactIcon{
 	}
 	
 	.top .TopHalf{
-	position: center;
 	padding:150px 0!important;
 	}
 	
 	.left .TopHalf{
-	position: center;
 	padding:260px 0!important;
 	}
 	
 	.bottom .TopHalf{
-	position: center;
 	padding:260px 0!important;
 	}
 	
 	.right .TopHalf{
-	position: center;
 	padding:260px 0!important;
 	}
 
@@ -968,5 +964,52 @@ img.ContactIcon{
 		border-bottom:none!important;
 		padding-bottom:10px!important;
 		border-right:none;
+	}
+	
+		.top .TopHalf{
+	padding:0px 0!important;
+	}
+	
+	.left .TopHalf{
+	padding:150px 0!important;
+	}
+	
+	.bottom .TopHalf{
+	padding:200px 0!important;
+	}
+	
+	.right .TopHalf{
+	padding:100px 0!important;
+	}
+
+	.top .container .row.MidHalf, .left .container .row.MidHalf , .bottom .container .row.MidHalf , .right .container .row.MidHalf  {
+    margin: 100px 0 20% 0!important;
+	}
+
+	.top .container .row.MidHalf.Section2, .left .container .row.MidHalf.Section2 , .bottom .container .row.MidHalf.Section2 , .right .container .row.MidHalf.Section2  {
+    margin: 100px 0 20% 0!important;
+	}
+	.top .QuoteText h3{
+		background-image:none;
+		background-repeat: no-repeat;
+		background-size: 100% 80%;
+		font-size:30px;
+	}
+	
+	.left .QuoteText h3{
+		background-image:none;
+		background-repeat: no-repeat;
+		background-size: 300px 400px;
+		font-size:30px;
+		padding:0 0!important;
+	}
+	
+	.right .QuoteText h3{
+		background-image:none;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		font-size:30px;
+		padding:0 0!important;
+		margin-top:100px!important;
 	}
 }
