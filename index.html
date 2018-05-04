@@ -1,15 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
   <head>
+		<meta charset="UTF-8">
 		<title>PCA</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <!-- SimpleBar -->
-    <link rel="stylesheet" href="simplebar/simplebar.css">
-    <script src="simplebar/simplebar.js"></script>
-		<link rel="stylesheet" href="https://use.typekit.net/ssd4sbp.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="simplebar/simplebar.css">
+    <script type="text/javascript" src="simplebar/simplebar.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://use.typekit.net/ssd4sbp.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
 		<div class="containment">
@@ -233,7 +234,7 @@ of Commerce. His insights on the underlying value of companies formed the basis 
 									University of Notre Dame: BA, <br>
 									Economics and Computer Applications<br>
 									University of Chicago - Booth School of Business: MBA, Accounting and Finance<br>
-									<div class="c-linkedin"/></div>
+									<div class="c-linkedin"></div></div>
 									
 									</p></div>
 									</div>
@@ -250,7 +251,7 @@ of Commerce. His insights on the underlying value of companies formed the basis 
 								<div class="EducationHighlights">
 								Education:<br>
 								University of Notre Dame: BBA, Finance<br>
-								<div class="c-linkedin"/></div>
+								<div class="c-linkedin"></div></div>
 								
 								</p>
 								</div>
@@ -269,7 +270,7 @@ of Commerce. His insights on the underlying value of companies formed the basis 
 								<div class="EducationHighlights">
 								Education:<br>
 								Marquette University: BA, Business Administration, Finance, Accounting<br>
-								<div class="c-linkedin"/></div>
+								<div class="c-linkedin"></div></div>
 								</p>
 								</div>
 								</div>
@@ -331,7 +332,7 @@ of Commerce. His insights on the underlying value of companies formed the basis 
 				<div class="panel">
 					<!-- <div class="fixed-text">Background Text!</div> -->
 				</div>
-				<div class="content" data-simplebar>
+				<div id="right-content" class="content">
         	<div class="container">
 						<div class="row TopHalf align-items-center text-center">
 							<div class="col-12">
@@ -404,10 +405,25 @@ of Commerce. His insights on the underlying value of companies formed the basis 
 					</div>
 					
 								<div class="row MidHalf align-items-center justify-content-center Section2">
-							<div class="col-12">
-								<h2>Technology</h2>
-							</div>
-						</div>	  
+									<div class="col-12">
+										<h2>Technology</h2>
+									</div>
+									<!-- Ball Drop Animation -->
+									<div class="col-12">
+										<div class="semi-containment">
+											<div id="slide-text" class="slide-text">
+												<div id="text1" class="text-mid">OF THE</div>
+												<div id="text2" class="text-light">5,532</div>
+											</div>
+											<div class="ghost-text">
+												<div id="text3" class="text-mid">&nbsp;05%</div>
+												<div id="text4" class="text-light">MEET OUR</div>
+												<div id="text5" class="text-light">CRITERIA</div>
+											</div>
+											<div id="animation-top" class="animation-container"></div>
+										</div>
+									</div>
+								</div>
 						
 				<div class="row BottomHalf">
 							<div class="col-12">
@@ -478,8 +494,8 @@ of Commerce. His insights on the underlying value of companies formed the basis 
     </div>
 
     <script type="text/javascript" src="animenu.js"></script>
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
