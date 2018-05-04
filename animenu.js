@@ -141,7 +141,6 @@ function ballSetUp() {
     return y
   }
   var scrollTarget = getYOffset(document.getElementById('animation-top'), 'right-content') - 400
-  console.log(scrollTarget)
   var didScroll = false
   var rightScroll = new SimpleBar(document.getElementById('right-content'))
   rightScroll.getScrollElement().addEventListener('scroll', function() {
@@ -153,7 +152,7 @@ function ballSetUp() {
       var scrollY = rightScroll.getScrollElement().scrollTop
       // console.log(scrollY, 'vs', scrollTarget)
       if (scrollY >= scrollTarget) {
-        console.log('trigger me timbers')
+        // console.log('trigger me timbers')
         let slider = document.getElementById('slide-text')
         slider.className += ' go'
         setTimeout(function() {
