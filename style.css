@@ -892,11 +892,16 @@ img.ContactIcon{
 	}
 
 	.top .container .row.MidHalf, .left .container .row.MidHalf , .bottom .container .row.MidHalf , .right .container .row.MidHalf  {
-    margin: 960px 0 20% 0!important;
+    margin: 100px 0 20% 0!important;
 	}
 
 	.top .container .row.MidHalf.Section2, .left .container .row.MidHalf.Section2 , .bottom .container .row.MidHalf.Section2 , .right .container .row.MidHalf.Section2  {
     margin: 100px 0 20% 0!important;
+	}
+	
+	.AnchorArrow i{
+		font-size:40px!important;
+		margin-top:50px;
 	}
 
 }
@@ -1011,5 +1016,10 @@ img.ContactIcon{
 		font-size:30px;
 		padding:0 0!important;
 		margin-top:100px!important;
+	}
+	
+	.AnchorArrow i{
+		font-size:20px!important;
+		margin-top:50px;
 	}
 }
