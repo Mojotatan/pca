@@ -115,12 +115,35 @@ body {
 	text-align: center;
 }
 
-.top .QuoteText h3{
-	background-image:url('images/Desktop/logos_icons/quotation-marks/desktop-quotemarks-grey.png');
-	background-repeat: no-repeat;
-    background-size: 880px 400px;
-	padding:50px 0px;
-	}
+.top .QuoteText h3:before{
+	font-family: Georgia!important;
+	content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin: -20px -166px 0 -100px;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_openingquote_bluebackground.png');
+	width:175px;
+	height:128px;
+}
+	
+.top .QuoteText h3:after{
+	font-family: Georgia!important;
+	content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin: -20px 0px 0 0px;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_closingquote_bluebackground.png');
+	width:175px;
+	height:128px;
+}
 	
 	
 .top.go {
@@ -210,13 +233,35 @@ body {
 	margin-top:20px;
 }
 
-.left .QuoteText h3{
-	background-image:url('images/Desktop/logos_icons/quotation-marks/desktop-quotemarks-blue.png');
-	background-repeat: no-repeat;
-    background-size: 850px 400px;
-	padding:80px 0;
-	}
-
+.left .QuoteText h3:before{
+	font-family: Georgia!important;
+	content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin: -20px -166px 0 -100px;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_openingquote_bluebackground.png');
+	width:175px;
+	height:128px;
+}
+	
+.left .QuoteText h3:after{
+	font-family: Georgia!important;
+	content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin: -20px 0px 0 0px;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_closingquote_bluebackground.png');
+	width:175px;
+	height:128px;
+}
 	
 	
 	
@@ -519,15 +564,37 @@ img.ContactIcon{
 	margin-top:20px;
 }
 
-.right .QuoteText h3{
-	background-image:url('images/Desktop/logos_icons/quotation-marks/desktop-quotemarks-yellow.png');
-	background-repeat: no-repeat;
-    background-size: 900px 460px;
-	padding:50px 0;
+.right .QuoteText h3:before{
+	font-family: Georgia!important;
+content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin: -20px -166px 0 -100px;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_openingquote_goldbackground.png');
+	width:175px;
+	height:128px;
 	}
+	
 
-
-
+.right .QuoteText h3:after{
+font-family: Georgia!important;
+content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin:-20px 0px 0 0;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_closingquote_goldbackground.png');
+	width:175px;
+	height:128px;
+	}
+	
 
 
 	
@@ -899,28 +966,115 @@ img.ContactIcon{
 	}
 	
 	.top .QuoteText h3{
-		background-image:url('images/Desktop/logos_icons/quotation-marks/desktop-quotemarks-grey.png');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		font-size:48px;
+		margin-top:150px;
 	}
+	
+	.top .QuoteText h3:before{
+	font-family: Georgia!important;
+	content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin: -60px 166px 0 -20px;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_openingquote_bluebackground.png');
+	width:175px;
+	height:128px;
+}
+	
+	.top .QuoteText h3:after{
+	font-family: Georgia!important;
+	content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin: -80px 0px 0 80px;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_closingquote_bluebackground.png');
+	width:175px;
+	height:128px;
+}
 	
 	.left .QuoteText h3{
-		background-image:url('images/Desktop/logos_icons/quotation-marks/desktop-quotemarks-blue.png');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		font-size:48px;
-		padding:0 0!important;
+		margin-top:150px!important;
 	}
 	
+	.left .QuoteText h3:before{
+	font-family: Georgia!important;
+	content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin: -60px 166px 0 -80px;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_openingquote_bluebackground.png');
+	width:175px;
+	height:128px;
+}
+	
+	.left .QuoteText h3:after{
+	font-family: Georgia!important;
+	content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin: 0px 0px 0 -50px;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_closingquote_bluebackground.png');
+	width:175px;
+	height:128px;
+}
+	
 	.right .QuoteText h3{
-		background-image:url('images/Desktop/logos_icons/quotation-marks/desktop-quotemarks-yellow.png');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		font-size:48px;
-		padding:0 0!important;
 		margin-top:100px!important;
 	}
+	
+	.right .QuoteText h3:before{
+	font-family: Georgia!important;
+	content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin: -60px 166px 0 -20px;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_openingquote_goldbackground.png');
+	width:175px;
+	height:128px;
+}
+	
+	.right .QuoteText h3:after{
+	font-family: Georgia!important;
+	content: "";
+    font-size: 200px!important;
+    color: #999;
+    line-height: 0;
+    display: inline-block;
+    margin: 0px 0px 0 -120px;
+	position:absolute;
+	z-index:-1;
+	background:url('images/Desktop/logos_icons/quotation-marks/desktop_closingquote_goldbackground.png');
+	width:175px;
+	height:128px;
+}
 	.bottom .btn.btn-outline-primary {
 	box-sizing: border-box!important;
 	border: 1px solid #E8C547!important;
@@ -1055,23 +1209,85 @@ img.ContactIcon{
 		background-repeat: no-repeat;
 		background-size: 100% 80%;
 		font-size:30px;
+		padding:0 20px;
 	}
 	
-	.left .QuoteText h3{
+	.top .QuoteText h3:before{
+		content: open-quote;
 		background-image:none;
+		font-size:50px!important;
+		color: #E8C547;
+		font-family: Baskerville!important;
+		margin:30px -100px 0 -100px;
+	}
+	
+	.top .QuoteText h3:after{
+		content: close-quote;
+		background-image:none;
+		font-size:50px!important;
+		color: #E8C547;
+		font-family: Baskerville!important;
+		margin:30px -100px 0 -75px;
+	}
+	
+	.top .BottomHalf{
+		margin-top:150px;
+		padding:0 20px;
+	}
+	
+	
+	
+	.left .QuoteText h3{
+		background-image:none!important;
 		background-repeat: no-repeat;
 		background-size: 300px 400px;
 		font-size:30px;
 		padding:0 0!important;
 	}
 	
-	.right .QuoteText h3{
+	.left .QuoteText h3:before{
+		content: open-quote;
 		background-image:none;
+		font-size:50px!important;
+		color: #f2f2f2;
+		font-family: Baskerville!important;
+		margin:30px -100px 0 -100px;
+	}
+	
+	.left .QuoteText h3:after{
+		content: close-quote;
+		background-image:none;
+		font-size:50px!important;
+		color: #f2f2f2;
+		font-family: Baskerville!important;
+		margin:30px -100px 0 -75px;
+	}
+	
+	.right .QuoteText h3{
+		background-image:none!important;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		font-size:30px;
-		padding:0 0!important;
+		padding:0 30px!important;
 		margin-top:100px!important;
+	}
+	
+	.right .QuoteText h3:before{
+		content: open-quote;
+		background-image:none;
+		font-size:50px!important;
+		color: #30323D;
+		font-family: Baskerville!important;
+		margin:30px -100px 0 -100px;
+	}
+	
+	.right .QuoteText h3:after{
+		content: close-quote;
+		background-image:none;
+		font-size:50px!important;
+		color: #30323D;
+		font-family: Baskerville!important;
+		margin:30px -100px 0 -75px;
 	}
 	
 	.AnchorArrow i{
