@@ -35,9 +35,9 @@ body {
 .top .panel {
 	background-image:url("images/Desktop/images/backgroundtext/grey_backgroundtext_2x.png");
 	background-repeat: no-repeat;
-	background-size: 80%;
+	background-size: 60%;
 	background-position: center center;
-	padding:50px 0!important;
+	padding:47px 0!important;
 }
 
 .top .container .row.LogoSection{
@@ -45,13 +45,13 @@ body {
 }
 
 .top .container .row.MidHalf{
-	margin:12% 0!important;
+	margin:150px 0!important;
 }
 
 .top h1{
   color: #E8C547;
   font-family: Baskerville;
-  font-size: 144px;
+  font-size: 141px;
   line-height: 120px;
   text-align: center;
 }
@@ -59,7 +59,7 @@ body {
 .top h2{
   color: #E8C547;
   font-family: Baskerville;
-  font-size: 100px;
+  font-size: 97px;
   line-height: 120px;
 }
 
@@ -71,6 +71,10 @@ body {
 	text-align: center;
 }
 
+.top .QuoteText{
+	margin:150px 0;
+}
+
 .top p.in-financial-markets{
 	opacity: 0.9;
 	color: #F2F2F2;
@@ -79,6 +83,10 @@ body {
 	font-weight: 300;
 	line-height: 22px;
 	text-align: center;
+}
+
+ .TopHalf p{
+	margin-top:30px;
 }
 
 .top p.when-brian-foley-cre {
@@ -95,6 +103,7 @@ body {
 	border: 1px solid #E8C547!important;
 	border-radius: 4px!important;
 	color:#E8C547!important;
+	font-family: Baskerville;
 }
 
 .top .btn.btn-outline-primary:hover {
@@ -103,6 +112,7 @@ body {
 	border-radius: 4px!important;
 	color:#30323d!important;
 	background:#E8C547!important;
+	font-family: Baskerville;
 }
 
 .top .QuoteText p{
@@ -118,7 +128,7 @@ body {
 .top .QuoteText h3:before{
 	font-family: Georgia!important;
 	content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
@@ -133,7 +143,7 @@ body {
 .top .QuoteText h3:after{
 	font-family: Georgia!important;
 	content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
@@ -161,7 +171,7 @@ body {
 .left .panel {
 	background-image:url("images/Desktop/images/backgroundtext/blue_backgroundtext_2x.png");
 	background-repeat: no-repeat;
-	background-size: 80%;
+	background-size: 60%;
 	background-position: center center;
 	padding:100px 0!important;
 }
@@ -172,13 +182,19 @@ body {
 }
 
 .left .container .row.MidHalf{
-	margin:12% 0!important;
+	margin:200px 0!important;
+}
+
+
+
+.left .QuoteText{
+	margin:150px 0!important;
 }
 
 .left h1{
   color: #F2F2F2;
   font-family: Baskerville;
-  font-size: 144px;
+  font-size: 141px;
   line-height: 120px;
   text-align: center;
 }
@@ -186,7 +202,7 @@ body {
 .left h2{
   color: #F2F2F2;
   font-family: Baskerville;
-  font-size: 100px;
+  font-size: 97px;
   line-height: 120px;
 }
 
@@ -236,7 +252,7 @@ body {
 .left .QuoteText h3:before{
 	font-family: Georgia!important;
 	content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
@@ -251,7 +267,7 @@ body {
 .left .QuoteText h3:after{
 	font-family: Georgia!important;
 	content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
@@ -279,7 +295,7 @@ body {
 .bottom .panel {
 	background-image:url("images/Desktop/images/backgroundtext/white_backgroundtext_2x.png");
 	background-repeat: no-repeat;
-	background-size: 80%;
+	background-size: 60%;
 	background-position: center center;
 	padding:100px 0!important;
 }
@@ -295,7 +311,7 @@ body {
 .bottom h1{
   color: #30323D;
   font-family: Baskerville;
-  font-size: 144px;
+  font-size: 141px;
   line-height: 120px;
   text-align: center;
 }
@@ -303,7 +319,7 @@ body {
 .bottom h2{
   color: #E8C547;
   font-family: Baskerville;
-  font-size: 100px;
+  font-size: 97px;
   line-height: 120px;
 }
 
@@ -378,7 +394,7 @@ body {
 .bottom span.ColHead{
   color: #E8C547;
   font-family: Baskerville;
-  font-size: 45px;
+  font-size: 42px;
   line-height: 60px;
   text-align:left;
 }
@@ -386,7 +402,7 @@ body {
 .bottom .QuoteText h3{
 	background-image:url('images/Desktop/logos_icons/quotation-marks/desktop-quotemarks-blue.png');
 	background-repeat: no-repeat;
-    background-size: 850px 400px;
+    background-size: 847px 400px;
 	padding:80px 0;
 	}
 	
@@ -412,8 +428,8 @@ body {
 }
 
 .c-linkedin {	
-	height: 30px;	
-	width: 30px;
+	height: 27px;	
+	width: 27px;
 	margin-top:20px;
 	background: url("images/Desktop/logos_icons/contact%20info/desktop_linked-in_grey.svg") no-repeat;
     display: inline-block;
@@ -448,9 +464,9 @@ img.ContactIcon{
 .right .panel {
 	background-image:url("images/Desktop/images/backgroundtext/gold_backgroundtext_2x.png");
 	background-repeat: no-repeat;
-	background-size: 90%;
+	background-size: 60%;
 	background-position: center center;
-	padding:50px 0!important;
+	padding:47px 0!important;
 }
 
 .right .container .row.LogoSection{
@@ -465,16 +481,16 @@ img.ContactIcon{
 .right h1{
   color: #30323D;
   font-family: Baskerville;
-  font-size: 144px;
+  font-size: 141px;
   line-height: 120px;
-  margin-top:50px;
+  margin-top:47px;
   text-align: center;
 }
 
 .right h2{
   color: #30323D;
   font-family: Baskerville;
-  font-size: 100px;
+  font-size: 97px;
   line-height: 120px;
 }
 
@@ -564,10 +580,14 @@ img.ContactIcon{
 	margin-top:20px;
 }
 
+.right .QuoteText{
+	margin:150px 0;
+}
+
 .right .QuoteText h3:before{
 	font-family: Georgia!important;
 content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
@@ -583,7 +603,7 @@ content: "";
 .right .QuoteText h3:after{
 font-family: Georgia!important;
 content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
@@ -658,10 +678,11 @@ content: "";
   left: 0;
   top: 0;
   height: 100%;
+  font-family: Baskerville;
 }
 #left-go > div {
   transform: rotate(-90deg);
-  width: 200px;
+  width: 197px;
   padding-bottom: 120px;
   position: absolute;
   top: calc(50% - 100px)
@@ -675,7 +696,8 @@ content: "";
   bottom: 0;
   left: 0;
   width: 100%;
-  border-top: 0px solid #EA0029
+  border-top: 0px solid #EA0029;
+  font-family: Baskerville;
 }
 #bottom-go > div {
 }
@@ -688,6 +710,7 @@ content: "";
   right: 0;
   top: 0;
   height: 100%;
+  font-family: Baskerville;
 }
 #right-go > div {
   transform: rotate(-90deg);
@@ -778,7 +801,7 @@ content: "";
 .slide-text.go > div {left: 50%; opacity: 0}
 .ghost-text > div {position: absolute; z-index: 1; /*font-family: Baskerville, serif*/}
 #text1 {top: 50%; font-size: 160px; transform: translate(-50%, -88%)}
-#text2 {top: 50%; font-size: 250px; transform: translate(-50%, -12%)}
+#text2 {top: 50%; font-size: 247px; transform: translate(-50%, -12%)}
 #text3 {top: 20.1%; left: 41.7%; font-size: 232px}
 #text4 {top: 52%; left: 41.7%; width: 483px; text-align: center; font-size: 89px}
 #text5 {top: 63%; left: 41.7%; width: 483px; text-align: center; font-size: 99px}
@@ -916,7 +939,7 @@ content: "";
 		display: block
 	}
 	.mt-logo {
-		height: 48px;
+		height: 42px;
 		width: 224px
 	}
 	.top.go ~ #mt-menu .mt-logo, .bottom.go ~ #mt-menu .mt-logo {
@@ -936,17 +959,17 @@ content: "";
 	}
 	
 	.top h1, .left h1, .right h1, .bottom h1{
-		font-size:100px!important;
+		font-size:97px!important;
 		line-height:120px;
 	}
 	
 	.top h2, .left h2, .right h2{
-		font-size:63px;
+		font-size:60px;
 		line-height:80px;
 	}
 	
 	.left .MidHalf h3{
-		margin-top:30px!important;
+		margin-top:27px!important;
 	}
 	
 	.right .MidHalf .row.text-center .PointsCol, .right .MidHalf .row.text-center .PointsCol p{
@@ -968,14 +991,14 @@ content: "";
 	.top .QuoteText h3{
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
-		font-size:48px;
-		margin-top:150px;
+		font-size:42px;
+		margin-top:147px;
 	}
 	
 	.top .QuoteText h3:before{
 	font-family: Georgia!important;
 	content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
@@ -990,7 +1013,7 @@ content: "";
 	.top .QuoteText h3:after{
 	font-family: Georgia!important;
 	content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
@@ -1005,14 +1028,14 @@ content: "";
 	.left .QuoteText h3{
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
-		font-size:48px;
-		margin-top:150px!important;
+		font-size:42px;
+		margin-top:147px!important;
 	}
 	
 	.left .QuoteText h3:before{
 	font-family: Georgia!important;
 	content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
@@ -1027,11 +1050,11 @@ content: "";
 	.left .QuoteText h3:after{
 	font-family: Georgia!important;
 	content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
-    margin: 0px 0px 0 -50px;
+    margin: 0px 0px 0 -47px;
 	position:absolute;
 	z-index:-1;
 	background:url('images/Desktop/logos_icons/quotation-marks/desktop_closingquote_bluebackground.png');
@@ -1042,14 +1065,14 @@ content: "";
 	.right .QuoteText h3{
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
-		font-size:48px;
+		font-size:42px;
 		margin-top:100px!important;
 	}
 	
 	.right .QuoteText h3:before{
 	font-family: Georgia!important;
 	content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
@@ -1064,7 +1087,7 @@ content: "";
 	.right .QuoteText h3:after{
 	font-family: Georgia!important;
 	content: "";
-    font-size: 200px!important;
+    font-size: 197px!important;
     color: #999;
     line-height: 0;
     display: inline-block;
@@ -1086,7 +1109,7 @@ content: "";
 	}
 	
 	.top .TopHalf{
-	padding:150px 0!important;
+	padding:147px 0!important;
 	}
 	
 	.left .TopHalf{
@@ -1111,7 +1134,7 @@ content: "";
 	
 	.AnchorArrow i{
 		font-size:40px!important; 
-		margin-top:50px; 
+		margin-top:47px; 
 	}
 
 }
@@ -1145,23 +1168,23 @@ content: "";
 		font-size: 24px
 	}
 	.top h1, .left h1, .right h1, .bottom h1{
-		font-size:48px!important;
-		line-height:50px!important;
+		font-size:42px!important;
+		line-height:47px!important;
 	}
 	
 	.top h2, .left h2, .right h2, .bottom h2{
-		font-size:30px!important;
+		font-size:27px!important;
 		line-height:40px!important;
 	}
 	
 	.top h3, .left h3, .right h3{
-		font-size:30px!important;
+		font-size:27px!important;
 		line-height:40px!important;
 		padding-top:40px;
 	}
 	
 	.right span.ColHead, .bottom span.ColHead{
-		font-size: 30px;
+		font-size: 27px;
 		line-height:60px!important;
 	}
 	
@@ -1186,11 +1209,11 @@ content: "";
 	}
 	
 	.left .TopHalf{
-	padding:150px 0!important;
+	padding:147px 0!important;
 	}
 	
 	.bottom .TopHalf{
-	padding:200px 0!important;
+	padding:197px 0!important;
 	}
 	
 	.right .TopHalf{
@@ -1208,30 +1231,30 @@ content: "";
 		background-image:none;
 		background-repeat: no-repeat;
 		background-size: 100% 80%;
-		font-size:30px;
+		font-size:27px;
 		padding:0 20px;
 	}
 	
 	.top .QuoteText h3:before{
 		content: open-quote;
 		background-image:none;
-		font-size:50px!important;
+		font-size:47px!important;
 		color: #E8C547;
 		font-family: Baskerville!important;
-		margin:30px -100px 0 -100px;
+		margin:27px -100px 0 -100px;
 	}
 	
 	.top .QuoteText h3:after{
 		content: close-quote;
 		background-image:none;
-		font-size:50px!important;
+		font-size:47px!important;
 		color: #E8C547;
 		font-family: Baskerville!important;
-		margin:30px -100px 0 -75px;
+		margin:27px -100px 0 -75px;
 	}
 	
 	.top .BottomHalf{
-		margin-top:150px;
+		margin-top:147px;
 		padding:0 20px;
 	}
 	
@@ -1241,57 +1264,57 @@ content: "";
 		background-image:none!important;
 		background-repeat: no-repeat;
 		background-size: 300px 400px;
-		font-size:30px;
+		font-size:27px;
 		padding:0 0!important;
 	}
 	
 	.left .QuoteText h3:before{
 		content: open-quote;
 		background-image:none;
-		font-size:50px!important;
+		font-size:47px!important;
 		color: #f2f2f2;
 		font-family: Baskerville!important;
-		margin:30px -100px 0 -100px;
+		margin:27px -100px 0 -100px;
 	}
 	
 	.left .QuoteText h3:after{
 		content: close-quote;
 		background-image:none;
-		font-size:50px!important;
+		font-size:47px!important;
 		color: #f2f2f2;
 		font-family: Baskerville!important;
-		margin:30px -100px 0 -75px;
+		margin:27px -100px 0 -75px;
 	}
 	
 	.right .QuoteText h3{
 		background-image:none!important;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
-		font-size:30px;
-		padding:0 30px!important;
+		font-size:27px;
+		padding:0 27px!important;
 		margin-top:100px!important;
 	}
 	
 	.right .QuoteText h3:before{
 		content: open-quote;
 		background-image:none;
-		font-size:50px!important;
+		font-size:47px!important;
 		color: #30323D;
 		font-family: Baskerville!important;
-		margin:30px -100px 0 -100px;
+		margin:27px -100px 0 -100px;
 	}
 	
 	.right .QuoteText h3:after{
 		content: close-quote;
 		background-image:none;
-		font-size:50px!important;
+		font-size:47px!important;
 		color: #30323D;
 		font-family: Baskerville!important;
-		margin:30px -100px 0 -75px;
+		margin:27px -100px 0 -75px;
 	}
 	
 	.AnchorArrow i{
 		font-size:20px!important;
-		margin-top:50px;
+		margin-top:47px;
 	}
 }
