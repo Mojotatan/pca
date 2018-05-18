@@ -818,7 +818,7 @@ img.ContactIcon{
 #mt-controller {
 	font-family: europa, sans-serif;
 	font-weight: 300;
-	/* color: #E8C547; */
+	color: #E8C547;
 	position: absolute;
 	z-index: 4;
 	right: 0;
